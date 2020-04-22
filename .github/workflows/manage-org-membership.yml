@@ -1,0 +1,16 @@
+name: Validate YAML files
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  lint:
+    name: Manage organization membership
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Manage organization membership
+        uses: johnmartel/organization-membership-action@feature/add-public-organization-member
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
