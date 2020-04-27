@@ -13,4 +13,4 @@ jobs:
       - name: Manage organization membership
         uses: johnmartel/organization-membership-action@feature/add-public-organization-member
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ORG_MEMBERSHIP_MANAGEMENT_TOKEN: ${{ secrets.ORG_MEMBERSHIP_MANAGEMENT_TOKEN }}
