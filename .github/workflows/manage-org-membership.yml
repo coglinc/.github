@@ -1,11 +1,11 @@
-name: Validate YAML files
+name: Manage organization membership
 
 on:
   push:
     branches: [ master ]
 
 jobs:
-  lint:
+  manage:
     name: Manage organization membership
     runs-on: ubuntu-latest
     steps:
