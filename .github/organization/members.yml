@@ -2,7 +2,7 @@ public_members:
   - login: johnmartel
     role: admin
   - login: jetre219
-    role: admin
+    role: member
 private_members:
   - login: sebasrobert
     role: member
