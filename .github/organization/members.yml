@@ -1,8 +1,7 @@
-public_members:
+members:
   - login: johnmartel
     role: admin
   - login: jetre219
     role: member
-private_members:
   - login: sebasrobert
-    role: member
+    role: admin
