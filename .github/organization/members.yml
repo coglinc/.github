@@ -1,5 +1,3 @@
 members:
   - login: johnmartel
     role: admin
-  - login: sebasrobert
-    role: member
