@@ -1,3 +1,5 @@
 members:
   - login: johnmartel
     role: admin
+  - login: johnmartel
+      role: member
