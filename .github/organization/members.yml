@@ -1,7 +1,5 @@
 members:
   - login: johnmartel
     role: admin
-  - login: jetre219
-    role: member
   - login: sebasrobert
     role: admin
