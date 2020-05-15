@@ -11,6 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Manage organization membership
-        uses: johnmartel/organization-membership-action@feature/add-public-organization-member
+        uses: johnmartel/organization-membership-action@master
         env:
           ORG_MEMBERSHIP_MANAGEMENT_TOKEN: ${{ secrets.ORG_MEMBERSHIP_MANAGEMENT_TOKEN }}
