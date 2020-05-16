@@ -11,6 +11,20 @@ extended by other repositories in this organization. For more details, see [prob
 
 ## Contributing
 
+### Testing locally
+
+:warning: This requires [act](https://github.com/nektos/act)
+
+- To simulate a push event that does not modify the `.github/organization/members.yml` file:
+
+  `act -e .act/push-no-members-file-modifications.json -s ORG_MEMBERSHIP_MANAGEMENT_TOKEN=[personal access token]`
+  
+- To simulate a push event that modifies the `.github/organization/members.yml` file:
+
+  :white_check_mark: The action will still use your local file
+  
+  `act -e .act/push-members-file-modifications.json -s ORG_MEMBERSHIP_MANAGEMENT_TOKEN=[personal access token]`
+
 ### Validation
 
 To validate settings, simply run `npm run lint`.
